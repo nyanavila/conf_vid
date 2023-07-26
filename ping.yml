@@ -1,0 +1,8 @@
+---
+- name: Test my connection
+  hosts: 162.0.225.15
+  become: true
+  tasks:
+    - name: use the ping module
+      ansible.builtin.ping:
+    
