@@ -1,6 +1,6 @@
 ---
 - name: Test my connection
-  hosts: 162.0.225.15
+  hosts: localhost
   become: true
   tasks:
     - name: use the ping module
